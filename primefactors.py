@@ -13,7 +13,7 @@ def primeFactors(n):
 
     factors = []
     d = 2
-    while n >= d:
+    while n > d:
         if n % d == 0:
             factors.append(d)
             n = n/d
@@ -24,4 +24,4 @@ def primeFactors(n):
 
 
 if __name__ == '__main__':
-    print primeFactors(600851475143)
+    print primeFactors(7)
